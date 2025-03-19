@@ -4,7 +4,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  font-family: Montserrat;
 }
 
 .center {
@@ -41,6 +42,29 @@ body {
   width: 720px;
   margin-top: 24px;
 }
+.top__link {
+  width: 247px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10;
+  padding: 16px 28px 16px 28px;
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 48px;
+}
 
 .stars {
   position: absolute;
@@ -68,5 +92,63 @@ body {
 
 .big__star {
   left: 1500px;
-  top: -290px;
+  top: -260px;
+}
+
+.big__star_1 {
+  left: 1300px;
+  top: -10px;
+}
+
+.big__star_2 {
+  left: 1540px;
+  top: 254px;
+}
+
+.big__star_3 {
+  left: 1680px;
+  top: 379px;
+}
+
+.big__star_5 {
+  left: 1700px;
+  top: 468px;
+}
+
+.big__star_4 {
+  left: 1800px;
+  top: 720px;
+}
+
+.about {
+  background: rgb(32, 32, 39);
+  height: 1470px;
+  padding-top: 94px;
+}
+.about__star {
+  position: absolute;
+  left: 1450px;
+  top: 940px;
+}
+.about__top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.about__title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.about__text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 24px;
 }/*# sourceMappingURL=style.css.map */
