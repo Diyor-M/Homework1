@@ -134,6 +134,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-bottom: 72px;
 }
 .about__title {
   color: rgb(255, 255, 255);
@@ -151,4 +152,54 @@ body {
   letter-spacing: 0px;
   text-align: left;
   padding-top: 24px;
+}
+
+.about__games {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.about__game {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  width: 378px;
+  height: 473px;
+}
+.about__game-big {
+  height: 515px;
+}
+.about__game-box {
+  padding: 32px 32px 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about__game-number {
+  border-radius: 52px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 115px;
+  background: rgb(247, 247, 247);
+  color: rgb(32, 32, 39);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0px;
+  height: 36px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.about__game-name {
+  color: rgb(32, 32, 39);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
