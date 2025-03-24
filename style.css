@@ -74,52 +74,52 @@ body {
   position: absolute;
 }
 
-.green__star_big {
+.top__star-green2 {
   left: 63px;
   top: 94px;
 }
 
-.green__star_little {
+.top__star-green1 {
   left: 948px;
   top: 538px;
 }
 
-.trans__star_little {
+.top__star-trans1 {
   left: 156px;
   top: 69px;
 }
 
-.trans__star_big {
+.top__star-trans2 {
   left: 1013px;
   top: 568px;
 }
 
-.big__star {
+.top__star-big {
   left: 1500px;
   top: -260px;
 }
 
-.big__star_1 {
+.top__star-big1 {
   left: 1300px;
   top: -10px;
 }
 
-.big__star_2 {
+.top__star-big2 {
   left: 1540px;
   top: 254px;
 }
 
-.big__star_3 {
+.top__star-big3 {
   left: 1680px;
   top: 379px;
 }
 
-.big__star_5 {
+.top__star-big5 {
   left: 1700px;
   top: 468px;
 }
 
-.big__star_4 {
+.top__star-big4 {
   left: 1800px;
   top: 720px;
 }
@@ -176,10 +176,6 @@ body {
   border-radius: 30px;
   background: rgb(255, 255, 255);
   width: 378px;
-  height: 480px;
-}
-.about__game-big {
-  height: 515px;
 }
 .about__game-box {
   padding: 32px 32px 36px 32px;
