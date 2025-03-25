@@ -13,8 +13,8 @@ body {
 }
 
 .center {
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 .top {
@@ -131,7 +131,7 @@ body {
 }
 .about__star {
   position: absolute;
-  left: 1050px;
+  left: 1250px;
   top: 940px;
   z-index: 1;
 }
@@ -172,7 +172,7 @@ body {
 .about__game {
   display: flex;
   flex-direction: column;
-  z-index: 2;
+  z-index: 10;
   border-radius: 30px;
   background: rgb(255, 255, 255);
   width: 378px;
@@ -204,7 +204,7 @@ body {
   color: rgb(32, 32, 39);
   font-size: 32px;
   font-weight: 700;
-  line-height: 32px;
+  line-height: 39px;
   letter-spacing: 0px;
   text-align: left;
 }/*# sourceMappingURL=style.css.map */
