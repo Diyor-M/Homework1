@@ -1,0 +1,232 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Montserrat;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
+  background-color: #e1ff8f;
+  // overflow: hidden;
+  height: 800px;
+  padding-top: 192px;
+  box-sizing: border-box;
+  position: relative;
+
+  &__head {
+    color: rgb(32, 32, 39);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 768px;
+    font-family: Montserrat;
+    position: relative;
+  }
+
+  &__text {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 720px;
+    margin-top: 24px;
+  }
+
+  &__link {
+    width: 247px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 16px 28px 16px 28px;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 48px;
+  }
+}
+
+// звезды
+
+.stars {
+  position: absolute;
+}
+
+.top__star-green2 {
+  left: 63px;
+  top: 94px;
+}
+
+.top__star-green1 {
+  left: 1300px;
+  top: 538px;
+}
+
+.top__star-trans1 {
+  left: 156px;
+  top: 69px;
+}
+
+.top__star-trans2 {
+  left: 1400px;
+  top: 568px;
+}
+
+.top__star-big {
+  left: 1500px;
+  top: -260px;
+}
+
+.top__star-big1 {
+  left: 1300px;
+  top: -10px;
+}
+
+.top__star-big2 {
+  left: 1540px;
+  top: 254px;
+}
+
+.top__star-big3 {
+  left: 1680px;
+  top: 379px;
+}
+
+.top__star-big5 {
+  left: 1700px;
+  top: 468px;
+}
+
+.top__star-big4 {
+  left: 1800px;
+  top: 720px;
+}
+
+// секция об играх
+
+.about {
+  background: rgb(32, 32, 39);
+  padding-top: 94px;
+  padding-bottom: 50px;
+
+  &__star {
+    position: absolute;
+    left: 1250px;
+    top: 940px;
+    z-index: 1;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 72px;
+  }
+
+  &__title {
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  &__text {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+
+.about__games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  &-box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+}
+
+.about__game {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  width: 378px;
+
+
+
+  &-box {
+    padding: 32px 32px 36px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &-number {
+    border-radius: 52px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 115px;
+    background: rgb(247, 247, 247);
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0px;
+    height: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
+  &-name {
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+
+  }
+
+
+}
