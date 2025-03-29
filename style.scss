@@ -19,7 +19,6 @@ body {
 
 .top {
   background-color: #e1ff8f;
-  // overflow: hidden;
   height: 800px;
   padding-top: 192px;
   box-sizing: border-box;
@@ -34,7 +33,6 @@ body {
     text-align: left;
     max-width: 768px;
     font-family: Montserrat;
-    position: relative;
   }
 
   &__text {
@@ -45,7 +43,7 @@ body {
     line-height: 32px;
     letter-spacing: 0px;
     text-align: left;
-    width: 720px;
+    max-width: 720px;
     margin-top: 24px;
   }
 
@@ -74,6 +72,12 @@ body {
   }
 }
 
+.top__link:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.5s;
+}
+
 // звезды
 
 .stars {
@@ -86,7 +90,7 @@ body {
 }
 
 .top__star-green1 {
-  left: 1300px;
+  right: 440px;
   top: 538px;
 }
 
@@ -96,38 +100,83 @@ body {
 }
 
 .top__star-trans2 {
-  left: 1400px;
+  right: 330px;
   top: 568px;
 }
 
 .top__star-big {
-  left: 1500px;
+  right: -400px;
   top: -260px;
 }
 
 .top__star-big1 {
-  left: 1300px;
+  right: 250px;
   top: -10px;
 }
 
 .top__star-big2 {
-  left: 1540px;
+  right: 250px;
   top: 254px;
 }
 
 .top__star-big3 {
-  left: 1680px;
+  right: 10px;
   top: 379px;
 }
 
 .top__star-big5 {
-  left: 1700px;
+  right: 117px;
   top: 468px;
 }
 
 .top__star-big4 {
-  left: 1800px;
+  right: 65px;
   top: 720px;
+}
+
+.top__runLine {
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  height: 90px;
+  left: 0px;
+  width: 6440px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(50px);
+  background: rgb(188, 236, 48);
+  color: rgb(32, 32, 39);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 24px 49px 27px 49px;
+  animation: scroll 15s linear infinite;
+}
+
+.top__runLine-text {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.top__runLine-text::after {
+  content: url(svg/line__star.svg);
+  margin-left: 51px;
+  margin-right: 51px;
+  width: 37px;
+  height: 37px;
 }
 
 // секция об играх
@@ -141,7 +190,7 @@ body {
     position: absolute;
     left: 1250px;
     top: 940px;
-    z-index: 1;
+    z-index: 0;
   }
 
   &__top {
@@ -180,19 +229,18 @@ body {
     flex-direction: column;
     gap: 32px;
   }
-
 }
 
 .about__game {
+  position: relative;
   display: flex;
   flex-direction: column;
-  z-index: 10;
+  z-index: 1;
   border-radius: 30px;
   background: rgb(255, 255, 255);
   width: 378px;
 
-
-
+ 
   &-box {
     padding: 32px 32px 36px 32px;
     display: flex;
@@ -225,8 +273,7 @@ body {
     line-height: 39px;
     letter-spacing: 0px;
     text-align: left;
-
   }
-
-
 }
+
+@import "mobile";
