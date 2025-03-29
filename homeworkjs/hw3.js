@@ -40,7 +40,6 @@ alert(a % b)
 
 
 // 7
-
 let num = 1;
 num += 5;
 num -= 3;
